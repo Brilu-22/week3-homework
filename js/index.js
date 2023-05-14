@@ -36,6 +36,31 @@ for(let i = 0; i < 100; i++){
     }
 }
 
+let marks = [23, 45, 67, 55, 80, 90, 45, 60, 56, 30, 31];
 
+let ageOne = 23;
+let userOne = "Josh";
 
+let ageTwo = 16;
+let userTwo = "Jacob";
+
+for(let i = 0; i < marks.length; i++){
+    total += marks[i];
+  }
+ 
+  let average = total/marks.length 
+ 
+  console.log(average);
+
+if(ageOne > 18 && userOne === "Josh"){
+    console.log("User and Age Match");
+}else {
+    console.log("User and Do Not Age Match");
+}
+
+if(ageTwo < 18 || userTwo === "Peter"){
+    console.log("User is Younger than 18 or is Peter");
+} else {
+    console.log("User is Younger than 18 and is Not Peter");
+}
 
